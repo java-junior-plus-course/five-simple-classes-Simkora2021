@@ -10,23 +10,6 @@ public class Operations {
     private double NumberC = 53.96;
     private double numberD = 43.83;
 
-    public double getnumberA() {
-        return NumberA;
-    }
-
-    public void setNumber_a(double NumberA) {
-        this.NumberA = NumberA;
-    }
-
-
-    public double getNumber_b() {
-        return NumberB;
-    }
-
-    public void setNumber_b(double NumberB) {
-        this.NumberB = NumberB;
-    }
-
     void writeNumberA() {
         if (NumberA > NumberB) {
             double x = NumberA - NumberB;
@@ -49,6 +32,25 @@ public class Operations {
     void writeNumberD(){
         System.out.println("Write D");
     }
+
+    public double getNumber_a() {
+        return NumberA;
+    } // Извините за нижнее подчеркивание, ничего лучше не придумал, а изменять лень)
+
+    public void setNumber_a(double NumberA) {
+        this.NumberA = NumberA;
+    }
+
+
+    public double getNumber_b() {
+        return NumberB;
+    }
+
+    public void setNumber_b(double NumberB) {
+        this.NumberB = NumberB;
+    }
+
+
 
 
 }

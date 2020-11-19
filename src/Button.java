@@ -1,9 +1,4 @@
 
-
-
-
-
-
 public class Button {
     private String JButton0;
     private String JButton1;
@@ -16,6 +11,27 @@ public class Button {
     private String JButton8;
     private String JButton9;
 
+    public class First {
+        void writeNumberOne() {
+            System.out.println("Write one");
+        }
+    }
+
+    public class Second {
+        void writeNumberTwo() {
+            System.out.println("Write two");
+        }
+    }
+
+    void writeNumberThree() {
+        System.out.println("Write three");
+    }
+
+
+    void writeNumberThree(String JButton3) {
+        System.out.println("Write three" + JButton3);
+
+    }
 
     public String getJbutton0() {
         return JButton0;
@@ -29,27 +45,10 @@ public class Button {
     public String getJbutton1() {
         return JButton1;
     }
+
     public void setJbutton1(String JButton1) {
         this.JButton1 = JButton1;
     }
-    public class First{
-        void writeNumberOne(){
-            System.out.println("Write one");
-        }
-    }
-    public class Second{
-        void writeNumberTwo(){
-            System.out.println("Write two");
-        }
-    }
-
-        void writeNumberThree(){
-            System.out.println("Write three");
-        }
 
 
-        void writeNumberThree(String JButton3){
-            System.out.println("Write three" + JButton3);
-
-    }
 }
