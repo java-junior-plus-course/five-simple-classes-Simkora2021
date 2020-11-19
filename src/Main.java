@@ -42,6 +42,13 @@ public class Main {
         String name = buttonOne.getJbutton1();
         System.out.println("I am the best in java  " + name);
 
+        Operations operations = new Operations();
+        operations.writeNumberD();
+
+        Operations operationsTwo = new Operations();
+        operationsTwo.writeNumberD(5.5);
+
+
 
 
 

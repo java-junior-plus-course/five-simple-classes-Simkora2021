@@ -32,6 +32,9 @@ public class Operations {
     void writeNumberD(){
         System.out.println("Write D");
     }
+    void writeNumberD(double stray){
+        System.out.println("Write stray");
+    }
 
     public double getNumber_a() {
         return NumberA;
