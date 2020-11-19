@@ -2,7 +2,7 @@
 
 
 
-// 2 refresh method
+
 
 public class Button {
     private String JButton0;
@@ -33,23 +33,23 @@ public class Button {
         this.JButton1 = JButton1;
     }
     public class First{
-        void WriteNumberOne(){
+        void writeNumberOne(){
             System.out.println("Write one");
         }
     }
     public class Second{
-        void WriteNumberTwo(){
+        void writeNumberTwo(){
             System.out.println("Write two");
         }
     }
 
-        void WriteNumberThree(){
+        void writeNumberThree(){
             System.out.println("Write three");
         }
 
 
-        void WriteNumberThree(String JButton3){
-            System.out.println("Write three");
+        void writeNumberThree(String JButton3){
+            System.out.println("Write three" + JButton3);
 
     }
 }
